@@ -10,5 +10,5 @@ export const HomeContainer = styled.div`
 
 export const HomeTitle = styled.h1`
   font-size: 48px;
-  color: #333;
+  color: ${({ theme }) => theme.colors.main};
 `;
